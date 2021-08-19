@@ -3,7 +3,13 @@
 This deliverable will require you to combine event handling, communication with the server (fetch), and DOM manipulation
 */
 
+    fetch("https://randomfox.ca/floof/")
+    .then(resp => resp.jason())
+    .then(picFox => pictures(picFox))
 
+function pictures(picFox){
+    const btn = 
+}
 
 /*
 DELIVERABLE 2: Start the json-server so that it is able to serve the data from the db.json file (json-server --watch db.json).
